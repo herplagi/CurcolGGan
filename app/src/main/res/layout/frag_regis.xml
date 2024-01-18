@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="@color/Orange"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <EditText
+        android:id="@+id/username_regis"
+        android:layout_width="267dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/username_regis"
+        android:hint="Username"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <EditText
+        android:id="@+id/pw_regis"
+        android:layout_width="267dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/pw_regis"
+        android:hint="Password"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <EditText
+        android:id="@+id/pw_regis2"
+        android:layout_width="267dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/pw_regis"
+        android:hint="Confirm Password"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:onClick="signup"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <Button
+        android:id="@+id/signup_button2"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:onClick="signup2"
+        android:text="Already Have An Account"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <!-- Tambahkan ImageView untuk menampilkan gambar -->
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="218dp"
+        android:layout_height="203dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle_background"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="-57dp" />
+
+    <ImageView
+        android:id="@+id/profile_image2"
+        android:layout_width="218dp"
+        android:layout_height="203dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle_background"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <!-- Sisipkan gambar ke dalam ImageView menggunakan app:srcCompat -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

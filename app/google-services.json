@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "658768509122",
+    "firebase_url": "https://curcol-f845a-default-rtdb.firebaseio.com",
+    "project_id": "curcol-f845a",
+    "storage_bucket": "curcol-f845a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658768509122:android:ea2f03909f0a134c48635b",
+        "android_client_info": {
+          "package_name": "com.example.curcolgan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnqOTNAhp2dSxcSRI9y0hBADG4fZvlm1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658768509122:android:799633b2caecb67148635b",
+        "android_client_info": {
+          "package_name": "com.example.managemood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnqOTNAhp2dSxcSRI9y0hBADG4fZvlm1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
